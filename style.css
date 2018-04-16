@@ -5,7 +5,6 @@ body{
 .logo{
     position: absolute;
     left: 0;
-
 }
 .container{
     width: 100vw;
@@ -20,6 +19,23 @@ body{
 }
 main{
 }
+.h2_1{
+    margin-left: 5vw;
+    font-family: 'Chewy', cursive;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.button1{
+    font-family: 'Chewy', cursive;
+    height: 5vh;
+    width: 10vw;
+    margin-left: 5vw;
+    background-color: black;
+    color: white;
+
+}
+
 .about{
     display: flex;
     flex-direction: row;
@@ -105,14 +121,15 @@ main{
 }
 h1{
     color: white;
+    font-family: 'Chewy', cursive;
     text-align: left;
     margin-top: 50vh;
     padding-left: 5vw;
 }
 h2{
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: 'Chewy', cursive;
-
+    font-size: 1.5rem;
 
 }
 nav{
@@ -133,18 +150,33 @@ nav li{
     padding-right: 1vw;
     font-family: 'Chewy', cursive;
 }
-.team{
+
+.button2{
+    height: 5vh;
+    width: 10vw;
+    background-color: black;
+    color: white;
+}
+
+.contact{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
     width:100vw;
     height: 40vh;
     background-color: rgba(200, 54, 62, 0.89);
     -webkit-box-shadow:  10px 10px 75px 30px rgba(0,0,0,1);
     -moz-box-shadow:  10px 10px 75px 30px rgba(0,0,0,1);
     box-shadow: 10px 10px 75px 30px rgb(167, 44, 51);}
+h3{
+    margin: 0;
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+    font-size: 1.5rem;
+    font-family: 'Chewy', cursive;
+
+}
 
 
